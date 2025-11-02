@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <link rel="stylesheet" href="/а/style.css">
+
+</head>
+
+<body>
+  <div id="webcrumbs">
+    <div class="bg-white min-h-screen">
+      <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <a href="ecomerce.html#"
+                class="text-2xl font-bold text-primary-600 mr-8 hover:text-primary-700 transition-colors">ShopHub</a>
+              <nav class="hidden md:flex space-x-6"> <a href="ecomerce.html#"
+                  class="font-medium hover:text-primary-600 transition-colors">Главная</a>
+                <a href="ecomerce.html#" class="font-medium hover:text-primary-600 transition-colors">Каталог</a>
+                <a href="ecomerce.html#" class="font-medium hover:text-primary-600 transition-colors">Акции</a>
+                <a href="ecomerce.html#" class="font-medium hover:text-primary-600 transition-colors">О нас</a> <a
+                  href="ecomerce.html#" class="font-medium hover:text-primary-600 transition-colors">Контакты</a>
+              </nav>
+            </div>
+            <div class="flex items-center space-x-4">
+              <div class="relative hidden md:block"> <input type="text" placeholder="Поиск товаров..."
+                  class="py-2 pl-10 pr-4 w-64 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
+                <span
+                  class="material-symbols-outlined absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">search</span>
+              </div> <button
+                class="md:hidden rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-100 transition-colors">
+                <span class="material-symbols-outlined">search</span> </button> <button
+                class="rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-100 transition-colors relative">
+                <span class="material-symbols-outlined">favorite</span> <span
+                  class="absolute -top-1 -right-1 bg-primary-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
+              </button> <button
+                class="rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-100 transition-colors relative">
+                <span class="material-symbols-outlined">shopping_cart</span> <span
+                  class="absolute -top-1 -right-1 bg-primary-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">2</span>
+              </button> <button
+                class="rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-100 transition-colors">
+                <span class="material-symbols-outlined">person</span> </button> <button
+                class="md:hidden rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-100 transition-colors">
+                <span class="material-symbols-outlined">menu</span> </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="relative bg-gray-100 overflow-hidden">
+        <div class="container mx-auto px-4 py-12 md:py-24 flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-8 md:mb-0">
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">Летняя распродажа до -70%</h1>
+            <p class="text-lg md:text-xl mb-6 text-gray-600">Успей приобрести товары из новой коллекции со скидкой.
+              Только до конца июня!</p>
+            <div class="flex space-x-4"> <a href="ecomerce.html#"
+                class="bg-primary-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">В
+                каталог</a> <a href="ecomerce.html#"
+                class="bg-white border border-gray-300 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors">Акции</a>
+            </div>
+          </div>
+          <div class="md:w-1/2"> <img
+              src="https://images.unsplash.com/photo-1607083206968-13611e3d76db?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=600"
+              alt="Summer sale promotion"
+              class="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
+              keywords="summer sale, fashion, clothing, discount, promotion" /> </div>
+        </div>
+        <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2"> <button
+            class="w-3 h-3 rounded-full bg-primary-600"></button> <button
+            class="w-3 h-3 rounded-full bg-gray-300 hover:bg-primary-400 transition-colors"></button> <button
+            class="w-3 h-3 rounded-full bg-gray-300 hover:bg-primary-400 transition-colors"></button> </div>
+      </div>
+      <div class="container mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-8 text-center">Популярные категории</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4"> <a href="ecomerce.html#"
+            class="bg-gray-50 rounded-xl p-4 flex flex-col items-center text-center hover:bg-gray-100 hover:shadow-md transition-all transform hover:-translate-y-1">
+            <span class="material-symbols-outlined text-4xl mb-2 text-primary-500">landscape</span> <span
+              class="font-medium">Одежда</span> </a><a href="ecomerce.html#"
+            class="bg-gray-50 rounded-xl p-4 flex flex-col items-center text-center hover:bg-gray-100 hover:shadow-md transition-all transform hover:-translate-y-1">
+            <span class="material-symbols-outlined text-4xl mb-2 text-primary-500">landscape</span> <span
+              class="font-medium">Обувь</span> </a><a href="ecomerce.html#"
+            class="bg-gray-50 rounded-xl p-4 flex flex-col items-center text-center hover:bg-gray-100 hover:shadow-md transition-all transform hover:-translate-y-1">
+            <span class="material-symbols-outlined text-4xl mb-2 text-primary-500">landscape</span> <span
+              class="font-medium">Аксессуары</span> </a><a href="ecomerce.html#"
+            class="bg-gray-50 rounded-xl p-4 flex flex-col items-center text-center hover:bg-gray-100 hover:shadow-md transition-all transform hover:-translate-y-1">
+            <span class="material-symbols-outlined text-4xl mb-2 text-primary-500">landscape</span> <span
+              class="font-medium">Электроника</span> </a><a href="ecomerce.html#"
+            class="bg-gray-50 rounded-xl p-4 flex flex-col items-center text-center hover:bg-gray-100 hover:shadow-md transition-all transform hover:-translate-y-1">
+            <span class="material-symbols-outlined text-4xl mb-2 text-primary-500">landscape</span> <span
+              class="font-medium">Дом</span> </a><a href="ecomerce.html#"
+            class="bg-gray-50 rounded-xl p-4 flex flex-col items-center text-center hover:bg-gray-100 hover:shadow-md transition-all transform hover:-translate-y-1">
+            <span class="material-symbols-outlined text-4xl mb-2 text-primary-500">landscape</span> <span
+              class="font-medium">Спорт</span> </a> </div>
+      </div>
+      <div class="bg-gray-50 py-12">
+        <div class="container mx-auto px-4">
+          <div class="flex justify-between items-center mb-8">
+            <h2 class="text-2xl font-bold">Популярные товары</h2>
+            <div class="flex space-x-4">
+              <details class="relative">
+                <details class="relative">
+                  <summary class="flex items-center space-x-1 cursor-pointer list-none">
+                  </summary>
+                  <div id="sort-options"
+                    class="absolute right-0 top-full mt-1 bg-white shadow-lg rounded-lg w-48 z-10 overflow-hidden">
+                    <div class="p-2">
+                      <button class="sort-btn w-full text-left px-3 py-2 hover:bg-gray-100 rounded-md"
+                        data-sort-by="default" data-sort-order="asc">Популярное</button>
+                      <button class="sort-btn w-full text-left px-3 py-2 hover:bg-gray-100 rounded-md"
+                        data-sort-by="price" data-sort-order="asc">По цене (низкая)</button>
+                      <button class="sort-btn w-full text-left px-3 py-2 hover:bg-gray-100 rounded-md"
+                        data-sort-by="price" data-sort-order="desc">По цене (высокая)</button>
+                      <button class="sort-btn w-full text-left px-3 py-2 hover:bg-gray-100 rounded-md"
+                        data-sort-by="rating" data-sort-order="desc">По рейтингу</button>
+                    </div>
+                  </div>
+                </details>
+                <summary class="flex items-center space-x-1 cursor-pointer list-none"> <span
+                    class="font-medium">Сортировка</span> <span
+                    class="material-symbols-outlined text-sm">expand_more</span> </summary>
+                <div class="absolute right-0 top-full mt-1 bg-white shadow-lg rounded-lg w-48 z-10 overflow-hidden">
+                  <div class="p-2"> <button
+                      class="w-full text-left px-3 py-2 hover:bg-gray-100 rounded-md flex items-center space-x-2"> <span
+                        class="material-symbols-outlined text-sm text-primary-600">check</span> <span>Популярное</span>
+                    </button> <button class="w-full text-left px-3 py-2 hover:bg-gray-100 rounded-md">По цене
+                      (низкая)</button> <button class="w-full text-left px-3 py-2 hover:bg-gray-100 rounded-md">По цене
+                      (высокая)</button> <button
+                      class="w-full text-left px-3 py-2 hover:bg-gray-100 rounded-md">Новинки</button> </div>
+                </div>
+              </details> <button
+                class="md:hidden rounded-full w-8 h-8 flex items-center justify-center border border-gray-300 bg-white hover:bg-gray-50 transition-colors">
+                <span class="material-symbols-outlined text-sm">filter_list</span> </button>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row">
+            <div class="hidden md:block w-64 mr-8 flex-shrink-0">
+              <div class="filter-group mb-6" data-filter-type="category">
+                <h3 class="font-bold mb-3">Категории</h3>
+                <div class="space-y-2">
+                  <ul class="list">
+                    <div class="space-y-2">
+                      <div class="flex items-center"> <input id="cat1" type="checkbox"
+                          class="h-4 w-4 text-primary-600 rounded" /> <label for="cat1" class="ml-2"
+                          data-id="одежда">Одежда (124)</label>
+                      </div>
+                      <div class="flex items-center"> <input id="cat2" type="checkbox"
+                          class="h-4 w-4 text-primary-600 rounded" /> <label for="cat2" class="ml-2"
+                          data-id="обувь">Обувь
+                          (86)</label>
+                      </div>
+                      <div class="flex items-center"> <input id="cat3" type="checkbox"
+                          class="h-4 w-4 text-primary-600 rounded" /> <label for="cat3" class="ml-2"
+                          data-id="аксессуары">Аксессуары
+                          (56)</label> </div>
+                      <div class="flex items-center"> <input id="cat4" type="checkbox"
+                          class="h-4 w-4 text-primary-600 rounded" /> <label for="cat4" class="ml-2"
+                          data-id="электроника">Электроника
+                          (32)</label> </div>
+                    </div>
+                    <div class="filter-btn text-left w-full hover:text-primary-600 transition-colors" class="list_item"
+                      data-id="Платья" class="flex items-center"> <input id="cat5" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="cat5" class="ml-2"
+                        data-id="платья">Платья</div>
+                    <div class="filter-btn text-left w-full hover:text-primary-600 transition-colors" class="list_item"
+                      data-id="Футболки" class="flex items-center"> <input id="cat6" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="cat6" class="ml-2"
+                        data-id="футболки">Футболки</div>
+                    
+                  </ul>
+                </div>
+              </div>
+              <div class="bg-white rounded-lg shadow-sm p-4">
+                <div class="mb-6">
+
+                </div>
+                <div class="mb-6">
+                  <h3 class="font-bold mb-3">Цена</h3>
+                  <div class="space-y-3">
+                    <section class="filter-section">
+                      <div class="price-range">
+                      </div>
+                      <input id="price-slider-min" type="range" min="0" max="50000" step="100" />
+                      <input id="price-slider-max" type="range" min="0" max="50000" step="100" />
+                      <div class="price-values"><span id="price-min-label"></span><span id="price-max-label"></span>
+                      </div>
+                    </section>
+                    <div class="flex justify-between items-center"> <input type="text"
+                        class="w-24 py-1 px-2 border rounded text-sm" value="1 000 ₽" /> <input type="text"
+                        class="w-24 py-1 px-2 border rounded text-sm" value="15 000 ₽" /> </div>
+                  </div>
+                </div>
+                <div class="mb-6">
+                  <h3 class="font-bold mb-3">Бренд</h3>
+                  <div class="space-y-2">
+                    <div class="flex items-center"> <input id="brand1" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="brand1" class="ml-2">Nike (45)</label>
+                    </div>
+                    <div class="flex items-center"> <input id="brand2" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="brand2" class="ml-2">Adidas (38)</label>
+                    </div>
+                    <div class="flex items-center"> <input id="brand3" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="brand3" class="ml-2">Puma (29)</label>
+                    </div>
+                    <div class="flex items-center"> <input id="brand4" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="brand4" class="ml-2">Reebok (22)</label>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h3 class="font-bold mb-3">Рейтинг</h3>
+                  <div class="space-y-2">
+                    <div class="flex items-center"> <input id="rating5" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="rating5" class="ml-2 flex"> <span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span> <span
+                          class="ml-1 text-sm text-gray-500">5 и выше</span> </label> </div>
+                    <div class="flex items-center"> <input id="rating4" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="rating4" class="ml-2 flex"> <span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_border </span> <span
+                          class="ml-1 text-sm text-gray-500">4 и выше</span> </label> </div>
+                    <div class="flex items-center"> <input id="rating3" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="rating3" class="ml-2 flex"> <span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_border </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_border </span> <span
+                          class="ml-1 text-sm text-gray-500">3 и выше</span> </label> </div>
+                    <div class="flex items-center"> <input id="rating2" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="rating2" class="ml-2 flex"> <span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_border </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_border </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_border </span> <span
+                          class="ml-1 text-sm text-gray-500">2 и выше</span> </label> </div>
+                    <div class="flex items-center"> <input id="rating1" type="checkbox"
+                        class="h-4 w-4 text-primary-600 rounded" /> <label for="rating1" class="ml-2 flex"> <span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_border </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_border </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_border </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_border </span> <span
+                          class="ml-1 text-sm text-gray-500">1 и выше</span> </label> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="blocks_item shoes shoes1"></div>
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Кроссовки Nike Air Max"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Кроссовки Nike Air Max, ecommerce, product, shopping" /> </a> <span
+                      class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded"> -20%
+                    </span>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Кроссовки Nike Air Max</h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.8 (128)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">12 990 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">15 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="blocks_item shoes shoes1"></div>
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://avatars.mds.yandex.net/i?id=7ca7b52467921ebcff866fd2412afb70_l-4477174-images-thumbs&n=13&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Кроссовки Adidas  New York"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Кроссовки Adidas  New York, ecommerce, product, shopping" /> </a> <span
+                      class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded"> -25%
+                    </span>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Кроссовки Adidas  New York</h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.8 (128)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">17 990 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">21 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="blocks_item shoes shoes1"></div>
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://wallpapers.com/images/hd/nike-air-jordan-9ur8a5ojf1qk7ehv.jpg&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Кроссовки Nike Air Max"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Кроссовки Nike Air Max, ecommerce, product, shopping" /> </a> <span
+                      class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded"> -10%
+                    </span>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Кроссовки Nike Air Max</h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">5 (128)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">22 990 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">20 690 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="blocks_item shoes shoes1"></div>
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Кроссовки Nike Air Max"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Кроссовки Nike Air Max, ecommerce, product, shopping" /> </a> <span
+                      class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded"> -20%
+                    </span>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Кроссовки Nike Air Max</h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.8 (128)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">12 990 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">15 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Худи Oversize"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Худи Oversize, ecommerce, product, shopping" /> </a> <span
+                      class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded"> -20%
+                    </span>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Худи Oversize</h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.5 (86)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">3 990 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">4 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Джинсы Slim Fit"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Джинсы Slim Fit, ecommerce, product, shopping" /> </a> <span
+                      class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded"> -30%
+                    </span>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Джинсы Slim Fit</h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.3 (67)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">4 990 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">6 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Худи Oversize"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Худи Oversize, ecommerce, product, shopping" /> </a> <span
+                      class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded"> -20%
+                    </span>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Худи Oversize</h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.5 (86)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">3 990 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">4 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Наушники Sony WH-1000XM4"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Наушники Sony WH-1000XM4, ecommerce, product, shopping" />
+                      <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                        -15% </span> </a>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Наушники Sony WH-1000XM4
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.9 (214)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">25 490 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">29 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://avatars.mds.yandex.net/i?id=72a3ea77aa53037fe459a0914d556ad3_sr-16467138-images-thumbs&n=13&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Рюкзак Fjallraven Kanken"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Рюкзак Fjallraven Kanken, ecommerce, product, shopping" /> </a>
+                    <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                      -20%</span>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Рюкзак Fjallraven Kanken
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.7 (93)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">7 120 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm">8 990 ₽</span> </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
+                  <div class="relative overflow-hidden"> <a href="ecomerce.html#"> <img
+                        src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                        alt="Умные часы Apple Watch 8"
+                        class="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                        keywords="Умные часы Apple Watch 8, ecommerce, product, shopping" /> </a>
+                    <span class="absolute top-2 left-2 bg-primary-600 text-white text-xs font-bold py-1 px-2 rounded">
+                      -40%</span>
+                    <div class="absolute top-2 right-2 flex flex-col gap-2"> <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">favorite_border</span> </button>
+                      <button
+                        class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-100 transition-colors">
+                        <span class="material-symbols-outlined text-gray-700 text-sm">visibility</span> </button>
+                    </div>
+                    <button
+                      class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white hover:bg-primary-600 hover:text-white text-gray-800 rounded-full py-2 px-4 font-medium transition-colors shadow-lg opacity-0 group-hover:opacity-100">
+                      В корзину </button>
+                  </div>
+                  
+                  <div class="p-4"> <a href="ecomerce.html#">
+                      <h3 class="font-medium mb-1 hover:text-primary-600 transition-colors">Умные часы Apple Watch 8
+                      </h3>
+                    </a>
+                    <div class="flex items-center mb-2">
+                      <div class="flex"> <span class="material-symbols-outlined text-sm text-yellow-400"> star
+                        </span><span class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star </span><span
+                          class="material-symbols-outlined text-sm text-yellow-400"> star_half </span> </div> <span
+                        class="text-sm text-gray-500 ml-1">4.8 (176)</span>
+                    </div>
+                    <div class="flex items-center"> <span class="font-bold text-lg">23 994 ₽</span> <span
+                        class="ml-2 text-gray-400 line-through text-sm"> 39 990 ₽</span> </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="mt-8 flex justify-center">
+                <nav class="flex items-center space-x-1"> <button
+                    class="px-2 py-2 rounded hover:bg-gray-100 transition-colors"> <span
+                      class="material-symbols-outlined">chevron_left</span> </button> <button
+                    class="px-4 py-2 rounded bg-primary-50 text-primary-600 font-medium">1</button> <button
+                    class="px-4 py-2 rounded hover:bg-gray-100 transition-colors">2</button> <button
+                    class="px-4 py-2 rounded hover:bg-gray-100 transition-colors">3</button> <span
+                    class="px-2">...</span> <button
+                    class="px-4 py-2 rounded hover:bg-gray-100 transition-colors">8</button> <button
+                    class="px-2 py-2 rounded hover:bg-gray-100 transition-colors"> <span
+                      class="material-symbols-outlined">chevron_right</span> </button> </nav>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="flex items-start p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"> <span
+              class="material-symbols-outlined text-4xl text-primary-600 mr-4">local_shipping</span>
+            <div>
+              <h3 class="font-bold text-lg mb-2">Бесплатная доставка</h3>
+              <p class="text-gray-600">При заказе от 5000 ₽ доставим бесплатно в любой регион России</p>
+            </div>
+          </div>
+          <div class="flex items-start p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"> <span
+              class="material-symbols-outlined text-4xl text-primary-600 mr-4">support_agent</span>
+            <div>
+              <h3 class="font-bold text-lg mb-2">Поддержка 24/7</h3>
+              <p class="text-gray-600">Ответим на все вопросы в любое время суток</p>
+            </div>
+          </div>
+          <div class="flex items-start p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"> <span
+              class="material-symbols-outlined text-4xl text-primary-600 mr-4">payments</span>
+            <div>
+              <h3 class="font-bold text-lg mb-2">Безопасная оплата</h3>
+              <p class="text-gray-600">Принимаем различные способы оплаты с полной защитой данных</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-primary-50 py-16">
+        <div class="container mx-auto px-4 text-center">
+          <h2 class="text-2xl md:text-3xl font-bold mb-3">Подпишитесь на новости и акции</h2>
+          <p class="text-gray-600 mb-8 max-w-xl mx-auto">Получайте первыми информацию о скидках, новых коллекциях и
+            эксклюзивных предложениях</p>
+          <div class="flex flex-col sm:flex-row justify-center max-w-lg mx-auto gap-3"> <input type="email"
+              placeholder="Ваш email"
+              class="px-4 py-3 rounded-lg flex-1 border focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
+            <button
+              class="bg-primary-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+              Подписаться </button>
+          </div>
+        </div>
+      </div>
+      <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-xl font-bold text-white mb-4">ShopHub</h3>
+              <p class="mb-4">Интернет-магазин с широким ассортиментом товаров для всей семьи</p>
+              <div class="flex space-x-4"> <a href="ecomerce.html#"
+                  class="text-gray-300 hover:text-white transition-colors"> <i
+                    class="fa-brands fa-facebook text-xl"></i> </a> <a href="ecomerce.html#"
+                  class="text-gray-300 hover:text-white transition-colors"> <i
+                    class="fa-brands fa-instagram text-xl"></i> </a> <a href="ecomerce.html#"
+                  class="text-gray-300 hover:text-white transition-colors"> <i class="fa-brands fa-twitter text-xl"></i>
+                </a> <a href="ecomerce.html#" class="text-gray-300 hover:text-white transition-colors"> <i
+                    class="fa-brands fa-youtube text-xl"></i> </a> </div>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-white mb-4">Информация</h3>
+              <ul class="space-y-2">
+                <li><a href="ecomerce.html#" class="hover:text-white transition-colors">О компании</a></li>
+                <li><a href="ecomerce.html#" class="hover:text-white transition-colors">Доставка и оплата</a></li>
+                <li><a href="ecomerce.html#" class="hover:text-white transition-colors">Возврат товара</a></li>
+                <li><a href="ecomerce.html#" class="hover:text-white transition-colors">Блог</a></li>
+                <li><a href="ecomerce.html#" class="hover:text-white transition-colors">Контакты</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-white mb-4">Категории</h3>
+              <ul class="space-y-2">
+                <li><a href="ecomerce.html#" class="hover:text-white transition-colors">Одежда</a></li>
+                <li><a href="ecomerce.html#" class="hover:text-white transition-colors">Обувь</a></li>
+                <li><a href="ecomerce.html#" class="hover:text-white transition-colors">Аксессуары</a></li>
+                <li><a href="ecomerce.html#" class="hover:text-white transition-colors">Электроника</a></li>
+                <li><a href="ecomerce.html#" class="hover:text-white transition-colors">Дом и сад</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-white mb-4">Контакты</h3>
+              <ul class="space-y-2">
+                <li class="flex items-center"> <span class="material-symbols-outlined mr-2">location_on</span> Москва,
+                  ул. Примерная, д. 123 </li>
+                <li class="flex items-center"> <span class="material-symbols-outlined mr-2">phone</span> 8 (800)
+                  123-45-67 </li>
+                <li class="flex items-center"> <span class="material-symbols-outlined mr-2">email</span> info@shophub.ru
+                </li>
+                <li class="flex items-center"> <span class="material-symbols-outlined mr-2">schedule</span> Пн-Вс: 9:00
+                  - 21:00 </li>
+              </ul>
+            </div>
+          </div>
+          <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p>© 2025 ShopHub. Все права защищены.</p>
+            <div class="flex space-x-4 mt-4 md:mt-0"> <a href="ecomerce.html#"
+                class="hover:text-white transition-colors">Политика конфиденциальности</a> <a href="ecomerce.html#"
+                class="hover:text-white transition-colors">Условия использования</a> </div>
+          </div>
+        </div>
+      </footer>
+      <div class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center"
+        id="quickViewModal">
+        <div class="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-auto">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <h2 class="text-2xl font-bold">Кроссовки Nike Air Max</h2> <button
+                class="text-gray-400 hover:text-gray-600"> <span class="material-symbols-outlined">close</span>
+              </button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div> <img
+                  src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                  alt="Кроссовки Nike Air Max" class="w-full rounded-lg"
+                  keywords="Nike Air Max, sneakers, shoes, footwear" />
+                <div class="flex justify-center mt-4 space-x-2"> <button
+                    class="w-16 h-16 border-2 border-primary-500 rounded-md overflow-hidden"> <img
+                      src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=500"
+                      alt="Кроссовки Nike Air Max" class="w-full h-full object-cover"
+                      keywords="Nike Air Max, sneakers, shoes, footwear" /> </button> <button
+                    class="w-16 h-16 border-2 border-transparent hover:border-primary-500 rounded-md overflow-hidden transition-colors">
+                  </button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/salymbekov-progekts.vercel.app/mins.js"></script>
+  <script>
+    tailwind.config = {
+      content: ["./src/**/*.{html,js}"],
+      theme: { "name": "Bluewave", "fontFamily": { "sans": ["Open Sans", "ui-sans-serif", "system-ui", "sans-serif", "\"Apple Color Emoji\"", "\"Segoe UI Emoji\"", "\"Segoe UI Symbol\"", "\"Noto Color Emoji\""] }, "extend": { "fontFamily": { "title": ["Lato", "ui-sans-serif", "system-ui", "sans-serif", "\"Apple Color Emoji\"", "\"Segoe UI Emoji\"", "\"Segoe UI Symbol\"", "\"Noto Color Emoji\""], "body": ["Open Sans", "ui-sans-serif", "system-ui", "sans-serif", "\"Apple Color Emoji\"", "\"Segoe UI Emoji\"", "\"Segoe UI Symbol\"", "\"Noto Color Emoji\""] }, "colors": { "neutral": { "50": "#f7f7f7", "100": "#eeeeee", "200": "#e0e0e0", "300": "#cacaca", "400": "#b1b1b1", "500": "#999999", "600": "#7f7f7f", "700": "#676767", "800": "#545454", "900": "#464646", "950": "#282828" }, "primary": { "50": "#f3f1ff", "100": "#e9e5ff", "200": "#d5cfff", "300": "#b7a9ff", "400": "#9478ff", "500": "#7341ff", "600": "#631bff", "700": "#611bf8", "800": "#4607d0", "900": "#3c08aa", "950": "#220174", "DEFAULT": "#611bf8" } } }, "fontSize": { "xs": ["12px", { "lineHeight": "19.200000000000003px" }], "sm": ["14px", { "lineHeight": "21px" }], "base": ["16px", { "lineHeight": "25.6px" }], "lg": ["18px", { "lineHeight": "27px" }], "xl": ["20px", { "lineHeight": "28px" }], "2xl": ["24px", { "lineHeight": "31.200000000000003px" }], "3xl": ["30px", { "lineHeight": "36px" }], "4xl": ["36px", { "lineHeight": "41.4px" }], "5xl": ["48px", { "lineHeight": "52.800000000000004px" }], "6xl": ["60px", { "lineHeight": "66px" }], "7xl": ["72px", { "lineHeight": "75.60000000000001px" }], "8xl": ["96px", { "lineHeight": "100.80000000000001px" }], "9xl": ["128px", { "lineHeight": "134.4px" }] }, "borderRadius": { "none": "0px", "sm": "6px", "DEFAULT": "12px", "md": "18px", "lg": "24px", "xl": "36px", "2xl": "48px", "3xl": "72px", "full": "9999px" }, "spacing": { "0": "0px", "1": "4px", "2": "8px", "3": "12px", "4": "16px", "5": "20px", "6": "24px", "7": "28px", "8": "32px", "9": "36px", "10": "40px", "11": "44px", "12": "48px", "14": "56px", "16": "64px", "20": "80px", "24": "96px", "28": "112px", "32": "128px", "36": "144px", "40": "160px", "44": "176px", "48": "192px", "52": "208px", "56": "224px", "60": "240px", "64": "256px", "72": "288px", "80": "320px", "96": "384px", "px": "1px", "0.5": "2px", "1.5": "6px", "2.5": "10px", "3.5": "14px" } },
+      plugins: [],
+      important: '#webcrumbs'
+    };
+  </script>
+  <script src="main2.js"></script>
+
+</body>
+
+</html>
